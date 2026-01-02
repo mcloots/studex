@@ -8,9 +8,9 @@
 ## 2. Installatie
 
 ```bash
-git clone https://github.com/mcloots/student-followup-system
+git clone https://github.com/mcloots/studex
 
-cd student-followup-system
+cd studex
 
 docker compose up -d
 ```
@@ -25,7 +25,7 @@ docker compose pull
 docker compose up -d
 ```
 
-## 3. SFS applicatie openen
+## 3. Studex applicatie openen
 
 [http://localhost:4200](http://localhost:4200)
 
@@ -62,9 +62,9 @@ docker system prune --volumes
 ## 2. Installation
 
 ```bash
-git clone https://github.com/mcloots/student-followup-system
+git clone https://github.com/mcloots/studex
 
-cd student-followup-system
+cd studex
 
 docker compose up -d
 ```
@@ -79,7 +79,7 @@ docker compose pull
 docker compose up -d
 ```
 
-## 3. Open the SFS Application
+## 3. Open the Studex Application
 
 [http://localhost:4200](http://localhost:4200)
 
