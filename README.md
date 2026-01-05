@@ -41,11 +41,11 @@ Vind het script voor jou OS terug om de container makkelijk te updaten en starte
 
 ## 6. Opgepast!
 
-- Verwijder NOOIT de **volume** `db_data`
+- Verwijder NOOIT de **volume** `studex_db_data`
 - Voer nooit onderstaande commando's uit:
 
 ```bash
-docker volume rm db_data
+docker volume rm studex_db_data
 
 docker compose down -v
 
@@ -95,11 +95,11 @@ Find the script for your OS to easily update and start the container!
 
 ## 6. Important Warning
 
-- Make sure to NOT remove the **volume** `db_data`
+- Make sure to NOT remove the **volume** `studex_db_data`
 - Never execute the following commands:
 
 ```bash
-docker volume rm db_data
+docker volume rm studex_db_data
 
 docker compose down -v
 
