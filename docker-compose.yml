@@ -6,8 +6,6 @@ services:
       POSTGRES_DB: studexdb
       POSTGRES_USER: studexuser
       POSTGRES_PASSWORD: studexpassword
-    ports:
-      - "5432:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
     healthcheck:
@@ -21,7 +19,7 @@ services:
     image: mcloots/mich-studex-api:latest
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      CONNECTION_STRING: Host=db;Port=5432;Database=studexdb;Username=studexuser;Password=studexpassword
+      CONNECTION_STRING: Host=db;Database=studexdb;Username=studexuser;Password=studexpassword
       ALLOWED_ORIGINS: http://localhost:4200
     ports:
       - "6007:8080"
